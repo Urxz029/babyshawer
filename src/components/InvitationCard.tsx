@@ -1,3 +1,4 @@
+import imagenInvitacion from '../assets/images/fernanda_card_1791299659863.jpg';
 import React from 'react';
 import { Calendar, MapPin, MessageCircle, Navigation, PhoneCall, Heart } from 'lucide-react';
 import { InvitationData } from '../types/invitation';
@@ -42,7 +43,7 @@ export const InvitationCard: React.FC<InvitationCardProps> = ({
         {/* The Exact Invitation Image */}
         <div className="relative w-full rounded-xl overflow-hidden shadow-md group">
           <img
-            src="/src/assets/images/fernanda_card_1791299659863.jpg"
+            src={imagenInvitacion}
             alt="Invitación Baby Shower Fernanda"
             className="w-full h-auto object-cover rounded-xl transition-transform duration-300 group-hover:scale-[1.01]"
             referrerPolicy="no-referrer"

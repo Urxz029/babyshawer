@@ -1,0 +1,6 @@
+{
+  "name": "Baby Shower - Fernanda Dominga",
+  "description": "Invitación interactiva y elegante al Baby Shower de Fernanda Dominga con sobre animado y confirmación de asistencia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

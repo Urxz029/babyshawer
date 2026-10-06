@@ -1,3 +1,4 @@
+import imagenInvitacion from '../assets/images/fernanda_card_1791299659863.jpg';
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';

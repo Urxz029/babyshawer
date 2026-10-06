@@ -1,4 +1,4 @@
-import imagenInvitacion from './assets/fernanda_card_1791299659863.jpg';
+import imagenInvitacion from '../assets/images/fernanda_card_1791299659863.jpg';
 import React, { useState } from 'react';
 import { Envelope } from './components/Envelope';
 import { PetalBackground } from './components/PetalBackground';

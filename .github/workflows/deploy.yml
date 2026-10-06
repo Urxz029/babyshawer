@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['main'] # Cambia a 'master' si tu rama se llama así
+    branches: ['main'] # Cambia a 'master' si tu rama principal se llama así
 
 permissions:
   contents: read
@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
       - name: Build
         run: npm run build
       - name: Setup Pages

@@ -1,4 +1,5 @@
 import imagenInvitacion from '../assets/images/fernanda_card_1791299659863.jpg';
+import floralBg from '../assets/images/floral_frame_bg_1791298171517.jpg';
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
@@ -204,7 +205,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({
                 <div
                   className="w-full h-full bg-[#faebea] border-t border-rose-300/80"
                   style={{
-                    backgroundImage: `url('/src/assets/images/floral_frame_bg_1791298171517.jpg')`,
+                    backgroundImage: `url('${floralBg}')`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     opacity: 0.85,
